@@ -187,3 +187,35 @@ function parseTSV(text){
   return rows;
 }
 loadTestimonial();
+initLangMenu();
+
+function initLangMenu(){
+  const toggle = document.querySelector('.lang-toggle');
+  if(!toggle) return;
+  const container = toggle.closest('.lang');
+  const menu = container.querySelector('.lang-menu');
+  toggle.addEventListener('click', (event) => {
+    event.stopPropagation();
+    const isOpen = container.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', (event) => {
+    if(!container.contains(event.target)){
+      container.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', (event) => {
+    if(event.key === 'Escape' && container.classList.contains('open')){
+      container.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.focus();
+    }
+  });
+  menu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      container.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}

@@ -97,8 +97,30 @@ opgeslagen versie te overslaan).
 - Clinicdata, inschrijvingen en testimonials komen automatisch uit Google Calendar,
   het Google Form en de Google Sheet. Daar verander je niets in de tekstbestanden voor.
 
-## Iets misgegaan?
+## Iets misgegaan? Een eerdere versie terugzetten
 
-Heb je per ongeluk een aanhalingsteken of komma verwijderd en ziet de site er kapot uit?
-Geen paniek: GitHub onthoudt elke eerdere versie. Mail of bel Daan, dan zetten we de
-laatste werkende versie zo terug.
+Heb je per ongeluk een aanhalingsteken of komma verwijderd, of staat er nu iets verkeerd
+op de site? Geen paniek: GitHub onthoudt elke eerdere versie van het bestand. Je kunt dit
+zelf herstellen, zonder dat er iets verloren gaat.
+
+1. Open het bestand dat je had aangepast (`strings/nl.json` of `strings/en.json`) op
+   GitHub, zoals in stap 1 hierboven.
+2. Klik rechtsboven, naast het potlood-icoontje, op het klok-icoontje (**History** /
+   geschiedenis). Dit toont een lijst van alle eerdere wijzigingen aan dit bestand, met
+   datum en omschrijving.
+3. Klik op de versie van vóór je foutje, meestal de regel net boven je eigen, recente
+   wijziging.
+4. Je ziet nu hoe het bestand er op dat moment uitzag. Klik rechtsboven op het
+   kopieer-icoontje bij **Copy raw contents** (of selecteer en kopieer alle tekst in het
+   bestand).
+5. Ga terug naar het bestand via de map `strings` en klik weer op het potlood-icoontje
+   om te bewerken.
+6. Selecteer in het bewerkvenster alle huidige tekst (Ctrl+A op Windows, Cmd+A op Mac) en
+   verwijder die.
+7. Plak de tekst die je in stap 4 hebt gekopieerd terug in het lege bewerkvenster.
+8. Scroll naar onderaan en klik op **Commit changes**, zoals in stap 3 hierboven.
+
+Na ongeveer een minuut staat de oude, werkende tekst weer live op de site.
+
+Komt je er niet uit, of weet je niet zeker welke versie de juiste is? Mail of bel Daan,
+dan zoeken we samen de laatste werkende versie op en zetten die terug.
