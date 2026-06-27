@@ -25,9 +25,10 @@ Heb je al een GitHub-account? Dan kun je deze stap overslaan.
 1. Log in op [github.com](https://github.com/).
 2. Ga naar de projectpagina: **github.com/daanjj/thermoclinics-site**
 3. Klik op de map **strings**.
-4. Je ziet twee bestanden:
+4. Je ziet drie bestanden:
    - `nl.json` — alle Nederlandse tekst
    - `en.json` — alle Engelse tekst
+   - `fr.json` — alle Franse tekst
 5. Klik op het bestand dat je wilt aanpassen.
 
 ## Stap 2: een tekst wijzigen
