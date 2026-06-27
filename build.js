@@ -15,7 +15,7 @@ const SITE_URL = "https://thermoclinics.nl";
 const LANGS = [
   { code: "nl", dir: "", label: "Nederlands", default: true },
   { code: "en", dir: "en", label: "English" },
-  // { code: "fr", dir: "fr", label: "Français" },
+  { code: "fr", dir: "fr", label: "Français" },
 ];
 
 const FLAG_SVG = {
@@ -38,8 +38,13 @@ function buildHreflangLinks() {
 }
 
 function buildLangSwitcher(currentCode) {
+  const current = LANGS.find((l) => l.code === currentCode);
+  if (!current) return "";
   const others = LANGS.filter((l) => l.code !== currentCode);
-  if (others.length === 0) return "";
+  const currentFlag = FLAG_SVG[currentCode] || "";
+  const currentItem = `      <span class="current" aria-current="page" aria-label="${current.label}" title="${current.label}">
+        ${currentFlag}
+      </span>`;
   const links = others
     .map((l) => {
       const flag = FLAG_SVG[l.code] || "";
@@ -48,7 +53,7 @@ function buildLangSwitcher(currentCode) {
       </a>`;
     })
     .join("\n");
-  return `<span class="lang">\n${links}\n    </span>`;
+  return `<span class="lang">\n${currentItem}\n${links}\n    </span>`;
 }
 
 function main() {

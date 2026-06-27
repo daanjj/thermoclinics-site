@@ -46,6 +46,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,248,.92);backdro
 .lang a{display:flex;align-items:center;line-height:0;border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px rgba(21,33,46,.15);transition:transform .15s ease,box-shadow .15s ease}
 .lang a:hover{transform:translateY(-1px);box-shadow:0 0 0 1px rgba(21,33,46,.3),0 5px 12px rgba(21,33,46,.2)}
 .lang a:focus-visible{outline:3px solid var(--cool);outline-offset:2px}
+.lang .current{display:flex;align-items:center;line-height:0;border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px rgba(21,33,46,.15);margin-right:8px}
 .lang svg{height:18px;width:auto;display:block}
 
 /* ---------- hero ---------- */
