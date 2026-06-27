@@ -40,20 +40,20 @@ function buildHreflangLinks() {
 function buildLangSwitcher(currentCode) {
   const current = LANGS.find((l) => l.code === currentCode);
   if (!current) return "";
-  const others = LANGS.filter((l) => l.code !== currentCode);
   const currentFlag = FLAG_SVG[currentCode] || "";
-  const currentItem = `      <span class="current" aria-current="page" aria-label="${current.label}" title="${current.label}">
+  const options = LANGS.map((l) => {
+    const flag = FLAG_SVG[l.code] || "";
+    if (l.code === currentCode) {
+      return `      <span class="lang-item current" aria-current="true" aria-label="${l.label}" title="${l.label}">${flag}</span>`;
+    }
+    return `      <a href="${l.dir ? "/" + l.dir + "/" : "/"}" hreflang="${l.code}" role="menuitem" aria-label="${l.label}" title="${l.label}" class="lang-item">${flag}</a>`;
+  }).join("\n");
+  return `<span class="lang" role="menu" aria-label="Language selector">
+      <button type="button" class="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="${current.label}">
         ${currentFlag}
-      </span>`;
-  const links = others
-    .map((l) => {
-      const flag = FLAG_SVG[l.code] || "";
-      return `      <a href="${l.dir ? "/" + l.dir + "/" : "/"}" hreflang="${l.code}" aria-label="${l.label}" title="${l.label}">
-        ${flag}
-      </a>`;
-    })
-    .join("\n");
-  return `<span class="lang">\n${currentItem}\n${links}\n    </span>`;
+      </button>
+      <span class="lang-menu" role="menu">\n${options}\n      </span>
+    </span>`;
 }
 
 function main() {

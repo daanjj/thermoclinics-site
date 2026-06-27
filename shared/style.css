@@ -42,11 +42,16 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,248,.92);backdro
 .btn-ghost:hover{background:var(--ink);color:#fff}
 .nav .btn{padding:9px 18px;margin-left:8px}
 .nav-toggle{display:none}
-.lang{display:flex;align-items:center;margin-left:18px}
-.lang a{display:flex;align-items:center;line-height:0;border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px rgba(21,33,46,.15);transition:transform .15s ease,box-shadow .15s ease}
-.lang a:hover{transform:translateY(-1px);box-shadow:0 0 0 1px rgba(21,33,46,.3),0 5px 12px rgba(21,33,46,.2)}
-.lang a:focus-visible{outline:3px solid var(--cool);outline-offset:2px}
-.lang .current{display:flex;align-items:center;line-height:0;border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px rgba(21,33,46,.15);margin-right:8px}
+.lang{display:flex;align-items:center;margin-left:18px;position:relative}
+.lang-toggle{all:unset;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px rgba(21,33,46,.15);cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;background:#fff}
+.lang-toggle:hover{transform:translateY(-1px);box-shadow:0 0 0 1px rgba(21,33,46,.3),0 5px 12px rgba(21,33,46,.2)}
+.lang-toggle:focus-visible{outline:3px solid var(--cool);outline-offset:2px}
+.lang-menu{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;gap:8px;padding:10px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 16px 32px rgba(21,33,46,.16);min-width:56px;z-index:20}
+.lang:hover .lang-menu,.lang:focus-within .lang-menu{display:flex}
+.lang-item{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:14px;overflow:hidden;box-shadow:0 0 0 1px rgba(21,33,46,.12);transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.lang-item:hover{background:#f7f5f3;transform:translateY(-1px);box-shadow:0 0 0 1px rgba(21,33,46,.2),0 5px 12px rgba(21,33,46,.12)}
+.lang-item:focus-visible{outline:3px solid var(--cool);outline-offset:2px}
+.lang-item.current{background:rgba(0,147,214,.08);box-shadow:0 0 0 1px rgba(0,147,214,.22)}
 .lang svg{height:18px;width:auto;display:block}
 
 /* ---------- hero ---------- */
