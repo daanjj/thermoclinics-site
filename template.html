@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="{{html_lang}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}}</title>
+<meta name="description" content="{{meta_description}}">
+{{hreflang_links}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="ThermoClinics home"><img src="/images/logo.avif" alt="ThermoClinics, in the heat of the race"></a>
+    <nav aria-label="{{nav_aria}}">
+      <ul>
+        <li><a href="#clinic">{{nav_clinic}}</a></li>
+        <li><a href="#leren">{{nav_leren}}</a></li>
+        <li><a href="#voorwie">{{nav_voorwie}}</a></li>
+        <li><a href="#data">{{nav_data}}</a></li>
+        <li><a href="#waarom">{{nav_waarom}}</a></li>
+        <li><a href="#praktisch">{{nav_praktisch}}</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-hot" href="#praktisch">{{nav_signup}}</a>
+    {{lang_switcher}}
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<!-- ============ HERO — grote kop, intro, knoppen, en de temperatuurgrafiek (rechts) ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">{{hero_eyebrow}}</p>
+      <h1>{{hero_title}}<span class="deg">.</span></h1>
+      <p class="lead">{{hero_lead}}</p>
+      <div class="cta-row">
+        <a class="btn btn-hot" href="#praktisch">{{hero_cta_signup}}</a>
+        <a class="btn btn-ghost" href="#clinic">{{hero_cta_expect}}</a>
+      </div>
+      <p class="hero-note">{{hero_note}}</p>
+    </div>
+
+    <figure class="chartcard" aria-label="{{chart_fig_aria}}">
+      <div class="chead">
+        <span class="ctitle">{{chart_title}}</span>
+        <span class="cval">{{chart_value}}</span>
+      </div>
+      <svg viewBox="0 0 420 230" role="img" aria-label="{{chart_svg_aria}}">
+        <!-- grid -->
+        <g stroke="#e4e0d9" stroke-width="1">
+          <line x1="40" y1="30" x2="400" y2="30"/>
+          <line x1="40" y1="80" x2="400" y2="80"/>
+          <line x1="40" y1="130" x2="400" y2="130"/>
+          <line x1="40" y1="180" x2="400" y2="180"/>
+        </g>
+        <!-- y labels -->
+        <g font-family="IBM Plex Mono,monospace" font-size="11" fill="#46586b">
+          <text x="4" y="34">40°</text>
+          <text x="4" y="84">39°</text>
+          <text x="4" y="134">38°</text>
+          <text x="4" y="184">37°</text>
+          <text x="40" y="218">0 min</text>
+          <text x="300" y="218" >finish</text>
+        </g>
+        <!-- danger line at 40 degrees -->
+        <line x1="40" y1="30" x2="400" y2="30" stroke="#d9472b" stroke-width="2" stroke-dasharray="6 5"/>
+        <text x="46" y="22" font-family="IBM Plex Mono,monospace" font-size="11" fill="#d9472b">{{chart_danger_label}}</text>
+        <!-- finish line -->
+        <line x1="315" y1="30" x2="315" y2="195" stroke="#b9c2cc" stroke-width="1.5" stroke-dasharray="3 4"/>
+        <!-- temperature curve, keeps rising after finish -->
+        <path id="templine" d="M40,180 C90,176 120,150 165,118 C210,88 250,76 315,66 C345,61 370,56 400,53"
+          fill="none" stroke="url(#tg)" stroke-width="4" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#0093D6"/>
+            <stop offset=".55" stop-color="#f29b38"/>
+            <stop offset="1" stop-color="#d9472b"/>
+          </linearGradient>
+        </defs>
+        <circle cx="400" cy="53" r="5" fill="#d9472b"/>
+      </svg>
+      <figcaption class="cfoot">{{chart_caption}}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><b>{{stat1_value}}</b><span>{{stat1_label}}</span></div>
+    <div class="stat"><b>{{stat2_value}}</b><span>{{stat2_label}}</span></div>
+    <div class="stat"><b>{{stat3_value}}</b><span>{{stat3_label}}</span></div>
+    <div class="stat"><b>{{stat4_value}}</b><span>{{stat4_label}}</span></div>
+  </div>
+</div>
+
+<!-- DE CLINIC -->
+<!-- ============ DE CLINIC — de drie stappen + de twee foto's ============ -->
+<section id="clinic">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">{{clinic_eyebrow}}</p>
+      <h2>{{clinic_title}}</h2>
+      <p>{{clinic_intro}}</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="dot">1</div>
+        <span class="tag">{{step1_tag}}</span>
+        <h3>{{step1_title}}</h3>
+        <p>{{step1_text}}</p>
+      </div>
+      <div class="step">
+        <div class="dot">2</div>
+        <span class="tag">{{step2_tag}}</span>
+        <h3>{{step2_title}}</h3>
+        <p>{{step2_text}}</p>
+      </div>
+      <div class="step">
+        <div class="dot">3</div>
+        <span class="tag">{{step3_tag}}</span>
+        <h3>{{step3_title}}</h3>
+        <p>{{step3_text}}</p>
+      </div>
+    </div>
+
+    <div class="photoband">
+      <!-- FOTO 1: vervang het bestand images/clinic-duurloop.jpg (zelfde naam) -->
+      <img class="ph" src="/images/clinic-duurloop.jpg" alt="{{photo1_alt}}">
+      <!-- FOTO 2: vervang het bestand images/clinic-analyse.jpg (zelfde naam) -->
+      <img class="ph" src="/images/clinic-analyse.jpg" alt="{{photo2_alt}}">
+    </div>
+  </div>
+</section>
+
+<!-- WAT JE LEERT -->
+<!-- ============ WAT JE LEERT — vier kaartjes ============ -->
+<section id="leren" class="learn">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">{{learn_eyebrow}}</p>
+      <h2>{{learn_title}}</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>{{learn1_title}}</h3>
+        <p>{{learn1_text}}</p>
+      </div>
+      <div class="card">
+        <h3>{{learn2_title}}</h3>
+        <p>{{learn2_text}}</p>
+      </div>
+      <div class="card">
+        <h3>{{learn3_title}}</h3>
+        <p>{{learn3_text}}</p>
+      </div>
+      <div class="card">
+        <h3>{{learn4_title}}</h3>
+        <p>{{learn4_text}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VOOR WIE -->
+<!-- ============ VOOR WIE — drie kaartjes met prijzen ============ -->
+<section id="voorwie">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">{{who_eyebrow}}</p>
+      <h2>{{who_title}}</h2>
+      <p>{{who_intro}}</p>
+    </div>
+    <div class="who">
+      <div class="card">
+        <h3>{{who1_title}}</h3>
+        <p>{{who1_text}}</p>
+        <span class="price">{{who1_price}}</span>
+      </div>
+      <div class="card">
+        <h3>{{who2_title}}</h3>
+        <p>{{who2_text}}</p>
+        <span class="price">{{who2_price}}</span>
+      </div>
+      <div class="card">
+        <h3>{{who3_title}}</h3>
+        <p>{{who3_text}}</p>
+        <span class="price">{{who3_price}}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GEPLANDE CLINICS -->
+<!-- ============ GEPLANDE CLINICS — komt automatisch uit Google Calendar, hier niets aanpassen ============ -->
+<section id="data" class="agenda">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">{{agenda_eyebrow}}</p>
+      <h2>{{agenda_title}}</h2>
+      <p>{{agenda_intro}}</p>
+    </div>
+    <div class="events" id="events">
+      <div class="agenda-fallback" id="agenda-fallback">{{agenda_loading}}</div>
+    </div>
+    <p class="agenda-note">{{agenda_note}}</p>
+  </div>
+</section>
+
+<!-- WAAROM -->
+<!-- ============ WAAROM — donkere sectie met het verhaal en de feiten ============ -->
+<section id="waarom" class="why">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">{{why_eyebrow}}</p>
+      <h2>{{why_title}}</h2>
+      <p>{{why_p1}}</p>
+      <p>{{why_p2}}</p>
+      <p>{{why_more_link}}</p>
+    </div>
+    <div>
+      <div class="fact">
+        <b>{{fact1_title}}</b>
+        <span>{{fact1_text}}</span>
+      </div>
+      <div class="fact">
+        <b>{{fact2_title}}</b>
+        <span>{{fact2_text}}</span>
+      </div>
+      <div class="fact">
+        <b>{{fact3_title}}</b>
+        <span>{{fact3_text}}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<!-- ============ TESTIMONIAL — vaste quote; wordt overschreven door goedgekeurde inzendingen uit de Sheet ============ -->
+<section class="quote">
+  <div class="wrap">
+    <div class="scale"></div>
+    <blockquote id="quote-block" style="transition:opacity .6s ease">
+      <p id="quote-text">{{quote_text}}</p>
+      <cite id="quote-cite">{{quote_cite}}</cite>
+    </blockquote>
+    <p class="quote-submit">{{quote_submit}}</p>
+  </div>
+</section>
+
+<!-- PRAKTISCH / INSCHRIJVEN -->
+<!-- ============ PRAKTISCH — de feitenlijst en de inschrijf-kaart (knop -> Google Form) ============ -->
+<section id="praktisch" class="prak">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">{{prak_eyebrow}}</p>
+      <h2>{{prak_title}}</h2>
+      <ul>
+        <li><b>{{prak_item1_label}}</b><span>{{prak_item1_value}}</span></li>
+        <li><b>{{prak_item2_label}}</b><span>{{prak_item2_value}}</span></li>
+        <li><b>{{prak_item3_label}}</b><span>{{prak_item3_value}}</span></li>
+        <li><b>{{prak_item4_label}}</b><span>{{prak_item4_value}}</span></li>
+        <li><b>{{prak_item5_label}}</b><span>{{prak_item5_value}}</span></li>
+        <li><b>{{prak_item6_label}}</b><span>{{prak_item6_value}}</span></li>
+      </ul>
+    </div>
+    <div class="signup">
+      <h3>{{signup_title}}</h3>
+      <p>{{signup_text}}</p>
+      <a class="btn btn-hot" href="https://forms.gle/ppYkgLkQPBkrKdsA8" target="_blank" rel="noopener">{{signup_btn}}</a>
+      <p class="alt">{{signup_alt}}</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo logo-foot" href="#top"><img src="/images/logo-white.png" alt="ThermoClinics"></a>
+      <p>{{footer_tagline}}</p>
+    </div>
+    <div>
+      <h4>{{footer_contact_title}}</h4>
+      <ul>
+        <li>Joost Fonville</li>
+        <li><a href="tel:+31651329291">+31 6 51 32 92 91</a></li>
+        <li><a href="mailto:info@thermoclinics.nl">info@thermoclinics.nl</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>{{footer_more_title}}</h4>
+      <ul>
+        <li>{{footer_more_signup}}</li>
+        <li>{{footer_link_foundation}}</li>
+        <li>{{footer_link_health}}</li>
+        <li>{{footer_link_events}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="scale foot-scale" aria-hidden="true"></div>
+    <div class="foot-base">
+      <span>{{footer_copyright}}</span>
+      <span>{{footer_slogan}}</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/shared/app.js"></script>
+</body>
+</html>
