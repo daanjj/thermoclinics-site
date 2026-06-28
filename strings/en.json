@@ -11,7 +11,7 @@
   "nav_praktisch": "Practical",
   "nav_signup": "Sign up",
 
-  "hero_eyebrow": "Supported by the Heat-Aware Sports Foundation",
+  "hero_eyebrow": "Live core temperature measurement during your run",
   "hero_title": "Know how hot you really run",
   "hero_lead": "During a ThermoClinic you measure your own core temperature on a training run. You see live what exertion does to your body, and you learn how to recognise, treat and prevent heat illness.",
   "hero_cta_signup": "Sign up · €45",
@@ -110,11 +110,11 @@
   "prak_item6_label": "Scheduling",
   "prak_item6_value": "Weekdays during the day or in the evening also possible",
   "signup_title": "Sign up for a ThermoClinic",
-  "signup_text": "Don't see your preferred date, or coming as a group? Email us and we'll arrange a location and time together.",
+  "signup_text": "Don't see your preferred date, or coming as a group? Email to <a href=\"mailto:info@thermoclinics.nl\">info@thermoclinics.nl</a> and we'll arrange a location and time together.",
   "signup_btn": "Go to the sign-up form",
-  "signup_alt": "Or email <a href=\"mailto:info@thermoclinics.nl\">info@thermoclinics.nl</a>",
+  "signup_alt": "",
 
-  "footer_tagline": "ThermoClinics raises awareness of thermoregulation in sport and hopes to help prevent heatstroke. ThermoClinics works together with the Heat-Aware Sports Foundation.",
+  "footer_tagline": "During a ThermoClinic, you experience first-hand how your body responds to exertion and heat: you measure your own core temperature and learn to recognize and prevent heat injury. Through this hands-on experience, ThermoClinics contributes to the broader mission of Stichting Hittebewust Sporten: advancing knowledge and awareness to help prevent heat stroke in athletes.",
   "footer_contact_title": "Contact",
   "footer_more_title": "More",
   "footer_more_signup": "<a href=\"/inschrijven-thermo-clinic/\">Sign up</a>",
