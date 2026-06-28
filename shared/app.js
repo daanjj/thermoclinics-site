@@ -219,3 +219,52 @@ function initLangMenu(){
     });
   });
 }
+
+/* ============================================================
+   Umami: sectie-zichtbaarheid + scroll-diepte
+   Stuurt custom events naar Umami zodat in het dashboard te zien is
+   hoe ver bezoekers de pagina doorlopen (per sectie, en bij 50%/100%
+   scroll als extra vangnet). Eén event per sectie/mijlpaal per bezoek.
+   Het Umami-script staat met "defer" in <head>, dit bestand niet, dus
+   window.umami kan nog niet bestaan op het moment dat dit script
+   draait — daarom altijd via track() met een beschikbaarheidscheck.
+   ============================================================ */
+function track(name, data){
+  if(window.umami && typeof window.umami.track === 'function') window.umami.track(name, data);
+}
+
+function initSectionTracking(){
+  const sections = document.querySelectorAll('main section[id]');
+  if(!sections.length || !('IntersectionObserver' in window)) return;
+  const seen = new Set();
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if(entry.isIntersecting && !seen.has(entry.target.id)){
+        seen.add(entry.target.id);
+        track('section_view', { section: entry.target.id });
+      }
+    });
+  }, { threshold: 0.4 });
+  sections.forEach((s) => observer.observe(s));
+}
+
+function initScrollDepthTracking(){
+  const milestones = [50, 75, 100];
+  const fired = new Set();
+  function check(){
+    const doc = document.documentElement;
+    const scrolled = (window.scrollY + window.innerHeight) / doc.scrollHeight * 100;
+    milestones.forEach((m) => {
+      if(scrolled >= m && !fired.has(m)){
+        fired.add(m);
+        track('scroll_depth', { percent: m });
+      }
+    });
+    if(fired.size === milestones.length) window.removeEventListener('scroll', check);
+  }
+  window.addEventListener('scroll', check, { passive: true });
+  check();
+}
+
+initSectionTracking();
+initScrollDepthTracking();
