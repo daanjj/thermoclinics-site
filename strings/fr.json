@@ -11,7 +11,7 @@
   "nav_praktisch": "Pratique",
   "nav_signup": "Inscrivez-vous",
 
-  "hero_eyebrow": "Soutenu par la Fondation Sensible à la Chaleur",
+  "hero_eyebrow": "Mesure en direct de votre température corporelle pendant votre course",
   "hero_title": "Sachez à quel point vous courez chaud",
   "hero_lead": "Lors d'une ThermoClinic, vous mesurez votre propre température centrale pendant une course d'entraînement. Vous voyez en direct ce que l'effort fait à votre corps, et vous apprenez à reconnaître, traiter et prévenir les lésions de chaleur.",
   "hero_cta_signup": "Inscrivez-vous · 45 €",
@@ -110,11 +110,11 @@
   "prak_item6_label": "Planification",
   "prak_item6_value": "En semaine le jour ou en soirée également possible",
   "signup_title": "Inscrivez-vous pour une ThermoClinic",
-  "signup_text": "Vous ne voyez pas la date souhaitée, ou vous venez en groupe ? Envoyez-nous un e-mail et nous organiserons ensemble un lieu et un horaire.",
+  "signup_text": "Vous ne voyez pas la date souhaitée, ou vous venez en groupe ? Envoyez-nous un e-mail à <a href=\"mailto:info@thermoclinics.nl\">info@thermoclinics.nl</a> et nous organiserons ensemble un lieu et un horaire.",
   "signup_btn": "Aller au formulaire d'inscription",
-  "signup_alt": "Ou envoyez un e-mail à <a href=\"mailto:info@thermoclinics.nl\">info@thermoclinics.nl</a>",
+  "signup_alt": "",
 
-  "footer_tagline": "ThermoClinics sensibilise à la thermorégulation dans le sport et espère contribuer à prévenir les coups de chaleur. ThermoClinics collabore avec la Fondation Sensible à la Chaleur.",
+  "footer_tagline": "Pendant un ThermoClinic, vous découvrez par vous-même comment votre corps réagit à l'effort et à la chaleur : vous mesurez votre propre température corporelle et apprenez à reconnaître et prévenir les coups de chaleur. Grâce à cette expérience pratique, ThermoClinics contribue à la mission plus large de la Stichting Hittebewust Sporten : développer la connaissance et la sensibilisation afin de prévenir les coups de chaleur chez les sportifs.",
   "footer_contact_title": "Contact",
   "footer_more_title": "Plus",
   "footer_more_signup": "<a href=\"/inschrijven-thermo-clinic/\">Inscrivez-vous</a>",
