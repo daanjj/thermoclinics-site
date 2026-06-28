@@ -110,9 +110,9 @@
   "prak_item6_label": "Planning",
   "prak_item6_value": "Ook doordeweeks overdag of 's avonds mogelijk",
   "signup_title": "Schrijf je in voor een ThermoClinic",
-  "signup_text": "Staat jouw gewenste datum er niet bij, of kom je met een groep? Mail ons (mailto:info@thermoclinics.nl), dan plannen we in overleg een locatie en tijdstip.",
+  "signup_text": "Staat jouw gewenste datum er niet bij, of kom je met een groep? Mail naar <a href=\"mailto:info@thermoclinics.nl\">info@thermoclinics.nl</a>, dan plannen we in overleg een locatie en tijdstip.",
   "signup_btn": "Naar het inschrijfformulier",
-  "signup_alt": "Of mail <a href=\"mailto:info@thermoclinics.nl\">info@thermoclinics.nl</a>",
+  "signup_alt": "",
 
   "footer_tagline": "ThermoClinics vergroot bewustwording over thermoregulatie bij het sporten en hoopt zo bij te dragen aan het voorkomen van hitteberoertes. ThermoClinics werkt samen met de Stichting Hittebewust Sporten.",
   "footer_contact_title": "Contact",
