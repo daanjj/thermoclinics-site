@@ -134,6 +134,8 @@ async function loadTestimonial(){
       // \n wordt expliciet een <br>; lege regels (\n\n) blijven zo zichtbaar.
       textEl.innerHTML = '“' + esc(rows[i][0]).replace(/\n/g, '<br>') + '”';
       citeEl.textContent = rows[i][1];
+      // Lange quotes niet vetgedrukt tonen, dat leest minder prettig.
+      textEl.classList.toggle('quote-long', rows[i][0].length > 180);
       if(counter) counter.textContent = (i + 1) + ' / ' + rows.length;
     }
 
