@@ -114,6 +114,18 @@
   "signup_btn": "Aller au formulaire d'inscription",
   "signup_alt": "",
 
+  "tool_eyebrow": "Application web gratuite",
+  "tool_title": "Consultez votre propre fichier FIT dans le navigateur",
+  "tool_intro": "Après la clinic, vous voudrez approfondir vos propres données chez vous. La FIT File Viewer ouvre le fichier FIT de votre montre de sport et affiche votre température corporelle, votre température cutanée, votre fréquence cardiaque, votre allure et votre altitude dans un seul graphique.",
+  "tool_feat1": "Température corporelle et cutanée aux côtés de la fréquence cardiaque, de l'allure, de la distance et de l'altitude, avec des bandes de couleur pour la contrainte thermique (HSI).",
+  "tool_feat2": "Tactile : glissez le doigt le long du parcours pour lire les valeurs, ou zoomez sur une partie de votre course.",
+  "tool_feat3": "Fonctionne entièrement dans votre navigateur, même hors ligne. Vos fichiers ne sont jamais téléversés.",
+  "tool_privacy": "100 % dans votre navigateur. Vos fichiers FIT ne quittent jamais votre appareil.",
+  "tool_devices": "Testée avec les montres Garmin. Les fichiers FIT des montres Coros n'affichent pas les valeurs de température CORE, car Coros et/ou CORE n'ont pas publié quels champs du fichier FIT contiennent ces valeurs.",
+  "tool_card_title": "FIT File Viewer",
+  "tool_card_text": "Ouvrez votre propre fichier FIT et analysez votre course, comme pendant la clinic.",
+  "tool_btn": "Ouvrir la FIT File Viewer",
+
   "footer_tagline": "Pendant un ThermoClinic, vous découvrez par vous-même comment votre corps réagit à l'effort et à la chaleur : vous mesurez votre propre température corporelle et apprenez à reconnaître et prévenir les coups de chaleur. Grâce à cette expérience pratique, ThermoClinics contribue à la mission plus large de la Stichting Hittebewust Sporten : développer la connaissance et la sensibilisation afin de prévenir les coups de chaleur chez les sportifs.",
   "footer_contact_title": "Contact",
   "footer_more_title": "Plus",

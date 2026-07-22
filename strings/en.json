@@ -114,6 +114,18 @@
   "signup_btn": "Go to the sign-up form",
   "signup_alt": "",
 
+  "tool_eyebrow": "Free web app",
+  "tool_title": "View your own FIT file in the browser",
+  "tool_intro": "After the clinic you'll want to keep exploring your own data at home. The FIT File Viewer opens the FIT file from your sports watch and shows your core temperature, skin temperature, heart rate, pace and elevation together in one chart.",
+  "tool_feat1": "Core and skin temperature alongside heart rate, pace, distance and elevation, with colour bands for heat strain (HSI).",
+  "tool_feat2": "Touch-friendly: slide your finger along the route to read values, or zoom into part of your run.",
+  "tool_feat3": "Runs entirely in your browser, even offline. Your files are never uploaded.",
+  "tool_privacy": "100% in your browser. Your FIT files never leave your device.",
+  "tool_devices": "Tested with Garmin watches. FIT files from Coros watches do not show CORE temperature values, because Coros and/or CORE have not published which fields in the FIT file hold these values.",
+  "tool_card_title": "FIT File Viewer",
+  "tool_card_text": "Open your own FIT file and analyse your run, just like during the clinic.",
+  "tool_btn": "Open the FIT File Viewer",
+
   "footer_tagline": "During a ThermoClinic, you experience first-hand how your body responds to exertion and heat: you measure your own core temperature and learn to recognize and prevent heat injury. Through this hands-on experience, ThermoClinics contributes to the broader mission of Stichting Hittebewust Sporten: advancing knowledge and awareness to help prevent heat stroke in athletes.",
   "footer_contact_title": "Contact",
   "footer_more_title": "More",

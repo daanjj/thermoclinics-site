@@ -114,6 +114,18 @@
   "signup_btn": "Naar het inschrijfformulier",
   "signup_alt": "",
 
+  "tool_eyebrow": "Gratis webapp",
+  "tool_title": "Bekijk je eigen FIT-bestand in de browser",
+  "tool_intro": "Na de clinic wil je thuis verder met je eigen data. Met de FIT File Viewer open je het FIT-bestand van je sporthorloge en zie je je kerntemperatuur, huidtemperatuur, hartslag, tempo en hoogte samen in één grafiek.",
+  "tool_feat1": "Kern- en huidtemperatuur naast hartslag, tempo, afstand en hoogte, met kleurbanden voor de warmtebelasting (HSI).",
+  "tool_feat2": "Aanraakvriendelijk: schuif met je vinger over de route om waarden af te lezen, of zoom in op een deel van je duurloop.",
+  "tool_feat3": "Werkt volledig in je browser, ook offline. Je bestanden worden nergens geüpload.",
+  "tool_privacy": "100% in je browser. Je FIT-bestanden verlaten je apparaat niet.",
+  "tool_devices": "Getest met Garmin-horloges. FIT-bestanden van Coros-horloges tonen geen CORE-temperatuurwaarden, omdat Coros en/of CORE niet hebben gepubliceerd welke velden in het FIT-bestand deze waarden bevatten.",
+  "tool_card_title": "FIT File Viewer",
+  "tool_card_text": "Open je eigen FIT-bestand en analyseer je duurloop, precies zoals tijdens de clinic.",
+  "tool_btn": "Open de FIT File Viewer",
+
   "footer_tagline": "Tijdens een ThermoClinic ervaar je zelf hoe je lichaam reageert op inspanning en hitte: je meet je eigen kerntemperatuur en leert hitteletsel herkennen en voorkomen. Met deze praktijkervaring draagt ThermoClinics bij aan de bredere missie van Stichting Hittebewust Sporten: kennis en bewustwording bevorderen en zo hitteberoertes bij sporters voorkomen.",
   "footer_contact_title": "Contact",
   "footer_more_title": "Meer",
