@@ -11,9 +11,9 @@
   "nav_praktisch": "Pratique",
   "nav_signup": "Inscrivez-vous",
 
-  "hero_eyebrow": "Mesure de votre température pendant votre course",
-  "hero_title": "Sachez à quel point vous courez chaud",
-  "hero_lead": "Lors d'une ThermoClinic, vous mesurez votre propre température centrale pendant une course d'entraînement. Vous voyez en direct ce que l'effort fait à votre corps, et vous apprenez à reconnaître, traiter et prévenir les lésions de chaleur.",
+  "hero_eyebrow": "Mesure de votre température interne en continue pendant votre course a pied",
+  "hero_title": "Prenez conscience de l'elevation de votre temperature",
+  "hero_lead": "Lors d'une ThermoClinic, vous mesurez votre propre température interne pendant une course a pied. Vous voyez en direct ce que l'effort fait à votre corps, et vous apprenez à reconnaître, traiter et prévenir les lésions de chaleur.",
   "hero_cta_signup": "Inscrivez-vous · 45 €",
   "hero_cta_expect": "À quoi vous attendre",
   "hero_note": "Max <strong>15 participants</strong> par clinic. Aussi sur place pour des groupes de coureurs et clubs.",
@@ -26,7 +26,7 @@
   "chart_caption": "Votre température suit votre effort : elle continue souvent de monter même après l'arrivée. Vous verrez cela sur vos propres données pendant la clinic.",
 
   "stat1_value": "40°C",
-  "stat1_label": "température centrale au-dessus de laquelle le risque de coup de chaleur augmente fortement",
+  "stat1_label": "température interne au-dessus de laquelle le risque de coup de chaleur augmente fortement",
   "stat2_value": "5–10 km",
   "stat2_label": "courez à votre rythme, avec un capteur CORE",
   "stat3_value": "15",
