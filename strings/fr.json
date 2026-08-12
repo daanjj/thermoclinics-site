@@ -16,7 +16,7 @@
   "hero_lead": "Lors d'une ThermoClinic, vous mesurez votre propre température interne pendant une course à pied. Vous suivez en direct lors de l'effort l'elevation de votre temperature, ce qui vous permet de prevenir et traiter les problemes due a l´hyperthermie.",
   "hero_cta_signup": "Inscrivez-vous · 45 €",
   "hero_cta_expect": "À quoi vous attendre",
-  "hero_note": "Max <strong>15 participants</strong> par clinic. Aussi sur place pour des groupes de coureurs et clubs.",
+  "hero_note": "Max <strong>15 participants</strong> par workshop. Aussi sur place pour des groupes de coureurs et clubs.",
 
   "chart_fig_aria": "Graphique d'exemple de température centrale pendant une course d'entraînement",
   "chart_title": "Température centrale · course de 45 min",
@@ -30,11 +30,11 @@
   "stat2_value": "5–10 km",
   "stat2_label": "courez à votre rythme, avec un capteur CORE",
   "stat3_value": "15",
-  "stat3_label": "participants maximum par clinic",
+  "stat3_label": "participants maximum par workshop",
   "stat4_value": "45 €",
   "stat4_label": "par participant, tarif de groupe sur demande",
 
-  "clinic_eyebrow": "La clinic",
+  "clinic_eyebrow": "Le workshop",
   "clinic_title": "De la théorie à vos propres données en trois étapes",
   "clinic_intro": "Pas une présentation théorique, mais une expérience pratique. Vous apprenez comment fonctionne la thermorégulation, vous mesurez votre température centrale lors d'une vraie course, puis vous analysez vos propres résultats.",
   "step1_tag": "Présentation · env. 45-60 min",
