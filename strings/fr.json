@@ -23,7 +23,7 @@
   "chart_value": "39,1°C",
   "chart_svg_aria": "Graphique : la température centrale monte de 37 à un peu plus de 39 degrés et continue de monter pendant un moment après l'arrivée. Au-dessus de 40 degrés, le risque de coup de chaleur augmente fortement.",
   "chart_danger_label": "> 40° = le risque augmente fortement",
-  "chart_caption": "Votre température progresse constament pendant votre effort : et meme apres la fin de votre effort. Vous pourrez ainsi suivre cette progression sur votre montre et dans l´application.",
+  "chart_caption": "Votre température progresse constament pendant et meme apres la fin de votre effort. Vous pourrez ainsi suivre cette progression sur votre montre et egalement dans l´application.",
 
   "stat1_value": "40°C",
   "stat1_label": "température interne au-dessus de laquelle le risque de coup de chaleur augmente fortement",
