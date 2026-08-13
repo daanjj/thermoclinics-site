@@ -67,15 +67,15 @@
   "who1_text": "Inscrivez-vous pour une workshop programmée. Préparation idéale pour des courses en été comme la Dam tot Damloop ou un marathon d'automne.",
   "who1_price": "45 € par participant",
   "who2_title": "Groupes de course et clubs",
-  "who2_text": "À partir de cinq participants, nous venons à votre club. Lieu, date et horaire a voir ensemble, (7 jours sur 7!).",
+  "who2_text": "À partir de cinq participants, nous nous deplacons à votre club. Lieu, date et horaire a definir ensemble, (7 jours sur 7!).",
   "who2_price": "Tarif de groupe sur demande",
   "who3_title": "Organisateurs d'événements",
-  "who3_text": "Préparez vos participants pour des éditions chaudes et renforcez votre politique de sécurité. Voyez aussi <a href=\"https://www.hittebewustsporten.nl/fr/\">hittebewustsporten.nl</a> pour des conseils aux organisations.",
+  "who3_text": "Préparez vos participants et renforcez votre politique de sécurité. Voyez aussi <a href=\"https://www.hittebewustsporten.nl/fr/\">hittebewustsporten.nl</a> pour des conseils aux organisateurs.",
   "who3_price": "Sur mesure, selon accord",
 
   "agenda_eyebrow": "Clinics programmées",
   "agenda_title": "Prochains ThermoClinics",
-  "agenda_intro": "Les dates sont tirées en direct de notre calendrier. Vous ne voyez pas votre date ? Envoyez-nous un e-mail et nous en organiserons une sur demande, y compris en semaine le jour ou en soirée.",
+  "agenda_intro": "Les dates sont affichées sur notre calendrier. Vous ne voyez pas votre date ? Envoyez-nous un e-mail et nous en organiserons une.",
   "agenda_loading": "Chargement de l'agenda…",
   "agenda_note": "Maximum 15 participants par clinic. Une fois complet, c'est complet.",
 
