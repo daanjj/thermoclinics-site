@@ -5,7 +5,7 @@
 
 name: Danielle Gerritsen
 
-role.nl: ThermoClinics Instructeur
+role.nl: Instructeur ThermoClinics
 role.en: Exercise physiologist
 role.fr: Physiologiste de l’effort
 

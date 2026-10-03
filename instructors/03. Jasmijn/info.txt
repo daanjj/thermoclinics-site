@@ -9,6 +9,15 @@ role.nl: Instructeur ThermoClinics
 role.en: Exercise physiologist
 role.fr: Physiologiste de l’effort
 
-intro.nl: Korte introductie in twee of drie zinnen: achtergrond, ervaring met hitte en wat deelnemers van deze instructeur leren.
+intro.nl: Biomedical sciences, professioneel langeafstandsloper
+Als atleet heb ik veel wedstrijden en toernooien gelopen
+in warme omstandigheden. Daarbij kwamen hitte-acclimatisatie en verschillende koelstrategieën regelmatig aan bod. Hierdoor heb ik veel eigen ervaring opgedaan met presteren in de hitte en weet ik hoe belangrijk een goede voorbereiding is.
+Ook vanuit mijn studie Biomedische Wetenschappen aan
+de Radboud Universiteit heb ik mij verdiept in
+thermoregulatie tijdens het sporten. Via deze weg kwam ik in contact met Joost en na mijn afstuderen ben ik aan de slag gegaan voor de stichting.
+Tijdens onze ThermoClinics deel ik graag mijn eigen
+ervaringen én wetenschappelijke kennis, zodat iedere sporter zich goed kan voorbereiden en veilig kan blijven sporten in de hitte.
+Want presteren in de warmte begint met weten hoe je
+ermee omgaat.
 intro.en: Short introduction in two or three sentences: background, experience with heat, and what participants learn from this instructor.
 intro.fr: Courte présentation en deux ou trois phrases : parcours, expérience de la chaleur et ce que les participants apprennent avec cet instructeur.
