@@ -1,0 +1,14 @@
+# VOORBEELD. Deze map begint met _ en wordt daarom NIET op de website getoond.
+# Kopieer deze map, geef de kopie een naam zoals 03-voornaam (zonder _),
+# zet er een photo.jpg bij en vul hieronder de gegevens in.
+# Regels die met # beginnen worden genegeerd.
+
+name: Kjeld Suurland
+
+role.nl: Instructeur ThermoClinics
+role.en: Exercise physiologist
+role.fr: Physiologiste de l’effort
+
+intro.nl: Korte introductie in twee of drie zinnen: achtergrond, ervaring met hitte en wat deelnemers van deze instructeur leren.
+intro.en: Short introduction in two or three sentences: background, experience with heat, and what participants learn from this instructor.
+intro.fr: Courte présentation en deux ou trois phrases : parcours, expérience de la chaleur et ce que les participants apprennent avec cet instructeur.
