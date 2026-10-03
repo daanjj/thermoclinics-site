@@ -1,0 +1,14 @@
+# VOORBEELD. Deze map begint met _ en wordt daarom NIET op de website getoond.
+# Kopieer deze map, geef de kopie een naam zoals 03-voornaam (zonder _),
+# zet er een photo.jpg bij en vul hieronder de gegevens in.
+# Regels die met # beginnen worden genegeerd.
+
+name: Jippe Lasschuijt
+
+role.nl: Instructeur ThermoClinics
+role.en: Founder ThermoClinics
+role.fr: Fondateur ThermoClincs
+
+intro.nl: Jippe heeft jarenlang atletiek gedaan op nationaal niveau en heeft hierdoor een enorme affiniteit met inspanningsfysiologie en sportgeneeskunde. Momenteel doe ik aan triathlon en combineer ik mijn kennis als atleet, biomedisch wetenschapper en geneeskundestudent om zo goed mogelijk atleten, trainers en professionals te informeren over hoe nu hittebewust te sporten. Mijn master thesis heb ik geschreven over thermoregulatie tijdens en na het sporten en deze theoretische kennis probeer ik in de praktijk toe te passen! 
+intro.en: Short introduction in two or three sentences: background, experience with heat, and what participants learn from this instructor.
+intro.fr: Courte présentation en deux ou trois phrases : parcours, expérience de la chaleur et ce que les participants apprennent avec cet instructeur.

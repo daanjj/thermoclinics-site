@@ -15,6 +15,7 @@ shared/
   style.css        ← alle opmaak (CSS), voor alle talen
   app.js           ← alle code (agenda + testimonials), voor alle talen
 images/            ← logo's en foto's
+instructors/       ← één map per instructeur (foto + info.txt), zie instructors/LEES-MIJ.md
 dist/              ← het eindresultaat (wordt automatisch gegenereerd, hier niets aanpassen)
 ```
 
@@ -54,6 +55,13 @@ Zet een nieuwe afbeelding in de map `images/` met exact dezelfde bestandsnaam:
 - `clinic-analyse.jpg`   (tweede foto bij "De clinic")
 
 Liggend formaat (16:9) werkt het mooist. Je hoeft niets anders aan te passen.
+
+## Instructeurs toevoegen of verwijderen
+
+De sectie "Door wie" wordt automatisch opgebouwd uit de map `instructors/`: één map per
+instructeur met een `photo.jpg` en een `info.txt`. Toevoegen is een map erbij zetten,
+verwijderen is de map weghalen; een `_` voor de mapnaam verbergt iemand tijdelijk. De
+volledige uitleg staat in `instructors/LEES-MIJ.md`.
 
 ## Logo
 

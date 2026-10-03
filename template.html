@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/shared/style.css">
-<script defer src="https://cloud.umami.is/script.js" data-website-id="e3e8b251-ef3c-4c52-bb6f-1ffb2bc150f5"></script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="e3e8b251-ef3c-4c52-bb6f-1ffb2bc150f5" data-domains="thermoclinics.nl,www.thermoclinics.nl"></script>
 </head>
 <body>
 
@@ -22,6 +22,7 @@
         <li><a href="#clinic">{{nav_clinic}}</a></li>
         <li><a href="#leren">{{nav_leren}}</a></li>
         <li><a href="#voorwie">{{nav_voorwie}}</a></li>
+        <!--team--><li><a href="#doorwie">{{nav_doorwie}}</a></li><!--/team-->
         <li><a href="#data">{{nav_data}}</a></li>
         <li><a href="#waarom">{{nav_waarom}}</a></li>
         <li><a href="#praktisch">{{nav_praktisch}}</a></li>
@@ -199,6 +200,23 @@
     </div>
   </div>
 </section>
+
+<!--team-->
+<!-- DOOR WIE -->
+<!-- ============ DOOR WIE — de instructeurs; komt automatisch uit de map instructors/, hier niets aanpassen ============ -->
+<section id="doorwie" class="team-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">{{team_eyebrow}}</p>
+      <h2>{{team_title}}</h2>
+      <p>{{team_intro}}</p>
+    </div>
+    <div class="team team-n{{team_count}}">
+{{team_cards}}
+    </div>
+  </div>
+</section>
+<!--/team-->
 
 <!-- GEPLANDE CLINICS -->
 <!-- ============ GEPLANDE CLINICS — komt automatisch uit Google Calendar, hier niets aanpassen ============ -->

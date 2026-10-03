@@ -6,6 +6,7 @@
   "nav_clinic": "The clinic",
   "nav_leren": "What you learn",
   "nav_voorwie": "Who it's for",
+  "nav_doorwie": "Who leads it",
   "nav_data": "Dates",
   "nav_waarom": "Why",
   "nav_praktisch": "Practical",
@@ -72,6 +73,10 @@
   "who3_title": "Event organisers",
   "who3_text": "Prepare your participants for hot editions and strengthen your safety policy. See also <a href=\"https://www.hittebewustsporten.nl/en/\">hittebewustsporten.nl</a> for advice for organisations.",
   "who3_price": "Tailored, by arrangement",
+
+  "team_eyebrow": "The instructors",
+  "team_title": "The people behind ThermoClinics",
+  "team_intro": "Every ThermoClinic is led by a regular team of instructors. Meet them here.",
 
   "agenda_eyebrow": "Scheduled clinics",
   "agenda_title": "Upcoming ThermoClinics",

@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 cd ~/Documents/GitHub/thermoclinics-site
 node build.js
