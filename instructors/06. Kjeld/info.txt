@@ -9,8 +9,8 @@ role.nl: Instructeur ThermoClinics
 role.en: Instructor ThermoClinics
 role.fr: Intervenant ThermoClinics
 
-intro.nl: Korte introductie in twee of drie zinnen: achtergrond, ervaring met hitte en wat deelnemers van deze instructeur leren.
+intro.nl: Kjeld is masterstudent geneeskunde aan de Erasmus Universiteit en fanatiek triatleet. Na een hitteberoerte tijdens zijn eerste marathon verdiepte hij zich in hitte en hydratatie. Voor zijn bacheloronderzoek bestudeerde hij risicogedrag van hardlopers bij de Marathon Rotterdam. Hij plaatste zich voor het Ironman World Championship in Kona. In de ThermoClinics deelt hij zijn kennis en eigen ervaring.
 
-intro.en: Short introduction in two or three sentences: background, experience with heat, and what participants learn from this instructor.
+intro.en: Kjeld is a master's student in medicine at Erasmus University and a dedicated triathlete. After suffering heatstroke during his first marathon, he delved into heat and hydration. For his bachelor's research, he studied runners' risk behaviour at the Rotterdam Marathon. He qualified for the Ironman World Championship in Kona. In the ThermoClinics, he shares his knowledge and personal experience.
 
-intro.fr: Courte présentation en deux ou trois phrases : parcours, expérience de la chaleur et ce que les participants apprennent avec cet instructeur.
+intro.fr: Étudiant en médecine à l'université Erasmus, Kjeld est triathlète passionné. Victime d'un coup de chaleur à son premier marathon, il s'est penché sur l'hydratation et la chaleur. Son mémoire de licence portait sur les comportements à risque au Marathon de Rotterdam. Il s'est qualifié pour l'Ironman World Championship à Kona. Lors des ThermoClinics, il partage son savoir et son vécu.
