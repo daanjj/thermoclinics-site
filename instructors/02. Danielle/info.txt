@@ -7,10 +7,10 @@ name: Danielle Gerritsen
 
 role.nl: Instructeur ThermoClinics
 role.en: Instructor ThermoClinics
-role.fr: Intervenante ThermoClincs
+role.fr: Intervenante ThermoClinics
 
 intro.nl: Daniëlle is sinds 2004 hardloopfysiotherapeut en heeft een master sportfysiotherapie. Zij is zelf ook fanatiek hardloper. In haar praktijk behandelt zij vooral hardlopers. Opvallend veel van hen kregen ooit te maken met oververhitting en willen informatie en handvatten. Via haar afstudeeronderzoek naar dit onderwerp leerde zij Joost kennen. Sindsdien deelt zij in de ThermoClinics haar kennis als fysiotherapeut en hardloopster.
 
-intro.en: SDaniëlle has been a physiotherapist for runners since 2004 and holds a master's in sports physiotherapy. She is a keen runner herself. A surprising number of her patients have experienced overheating and want information and practical guidance. Her thesis on this topic introduced her to Joost. In the ThermoClinics, she now shares her expertise as a physiotherapist and runner.
+intro.en: Daniëlle has been a physiotherapist for runners since 2004 and holds a master's in sports physiotherapy. She is a keen runner herself. A surprising number of her patients have experienced overheating and want information and practical guidance. Her thesis on this topic introduced her to Joost. In the ThermoClinics, she now shares her expertise as a physiotherapist and runner.
 
 intro.fr: Kinésithérapeute du coureur depuis 2004, Daniëlle est titulaire d'un master en kinésithérapie du sport et court elle-même avec passion. Un nombre étonnant de ses patients ont déjà souffert d'hyperthermie et recherchent informations et conseils pratiques. Son mémoire sur ce sujet lui a fait rencontrer Joost. Lors des ThermoClinics, elle partage son expertise de kinésithérapeute et de coureuse.

@@ -7,10 +7,10 @@ name: Jippe Lasschuijt
 
 role.nl: Instructeur ThermoClinics
 role.en: Instructor ThermoClinics
-role.fr: Intervenant ThermoClincs
+role.fr: Intervenant ThermoClinics
 
 intro.nl: Jippe kwam jarenlang uit op nationaal niveau in de atletiek en doet tegenwoordig aan triatlon. Als biomedisch wetenschapper schreef hij zijn masterscriptie over thermoregulatie tijdens en na het sporten. Inmiddels studeert hij geneeskunde. In de ThermoClinics combineert hij zijn ervaring als atleet met wetenschappelijke en medische kennis, zodat sporters, trainers en professionals weten hoe ze hittebewust kunnen sporten.
 
-intro.en: SJippe competed nationally in athletics for years and now does triathlon. As a biomedical scientist, he wrote his master's thesis on thermoregulation during and after exercise. He currently studies medicine. In the ThermoClinics, he combines his experience as an athlete with scientific and medical knowledge, so athletes, coaches and professionals know how to exercise in a heat-aware way.
+intro.en: Jippe competed nationally in athletics for years and now does triathlon. As a biomedical scientist, he wrote his master's thesis on thermoregulation during and after exercise. He currently studies medicine. In the ThermoClinics, he combines his experience as an athlete with scientific and medical knowledge, so athletes, coaches and professionals know how to exercise in a heat-aware way.
 
 intro.fr: Jippe a longtemps pratiqué l'athlétisme au niveau national et fait désormais du triathlon. Scientifique biomédical, il a consacré son mémoire de master à la thermorégulation pendant et après l'effort. Il étudie aujourd'hui la médecine. Lors des ThermoClinics, il allie son expérience d'athlète à des connaissances scientifiques et médicales, pour que sportifs, entraîneurs et professionnels s'entraînent en sécurité par forte chaleur.

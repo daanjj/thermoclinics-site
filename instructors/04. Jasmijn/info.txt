@@ -7,7 +7,7 @@ name: Jasmijn Lau
 
 role.nl: Instructeur ThermoClinics
 role.en: Instructor ThermoClinics
-role.fr: Intervenante ThermoClincs
+role.fr: Intervenante ThermoClinics
 
 intro.nl: Als professionele langeafstandsloper liep Jasmijn veel wedstrijden in de hitte en deed ervaring op met hitte-acclimatisatie en koelstrategieën. Tijdens haar studie Biomedische Wetenschappen aan de Radboud Universiteit verdiepte zij zich in thermoregulatie bij sporters en kwam zo in contact met Joost. In de ThermoClinics combineert zij praktijkervaring met wetenschappelijke kennis, zodat sporters veilig kunnen presteren in de warmte.
 
