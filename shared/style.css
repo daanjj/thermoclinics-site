@@ -120,8 +120,10 @@ h2{font-family:var(--font-display);font-weight:800;font-stretch:92%;font-size:cl
 .card p{font-size:.95rem;color:var(--ink-soft)}
 
 /* foto's */
-.photoband{display:grid;grid-template-columns:1.4fr 1fr;gap:22px;margin-top:56px}
-.ph{border-radius:14px;aspect-ratio:16/9;width:100%;object-fit:cover;display:block}
+.photoband{display:grid;grid-template-columns:3fr 3fr 2fr;gap:22px;margin-top:56px}
+.ph{border-radius:14px;aspect-ratio:3/2;width:100%;object-fit:cover;display:block}
+/* 3fr/3fr/2fr + 3:2/3:2/1:1 => all three tiles end up exactly the same height */
+.ph-square{aspect-ratio:1/1}
 .ph1{background:linear-gradient(135deg,#0093D6 0%,#15212e 100%)}
 .ph2{background:linear-gradient(135deg,#f29b38 0%,#d9472b 100%)}
 
@@ -245,6 +247,7 @@ footer li{margin-bottom:8px}
   .steps::before{left:26px;right:auto;top:8%;bottom:8%;width:6px;height:auto;background:linear-gradient(180deg,var(--cool),var(--warm),var(--hot))}
   .cards,.who,.events{grid-template-columns:1fr}
   .photoband{grid-template-columns:1fr}
+  .ph-square{aspect-ratio:3/2}
   footer .wrap{grid-template-columns:1fr}
   .nav ul{display:none}
   .team-card,.team-n4 .team-card{flex-basis:calc((100% - 24px) / 2)}

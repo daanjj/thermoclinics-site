@@ -135,10 +135,13 @@
     </div>
 
     <div class="photoband">
-      <!-- FOTO 1: vervang het bestand images/clinic-duurloop.jpg (zelfde naam) -->
-      <img class="ph" src="/images/clinic-duurloop.jpg" alt="{{photo1_alt}}">
-      <!-- FOTO 2: vervang het bestand images/clinic-analyse.jpg (zelfde naam) -->
-      <img class="ph" src="/images/clinic-analyse.jpg" alt="{{photo2_alt}}">
+      <!-- Drie foto's, in de volgorde van de drie stappen hierboven. Vervangen: nieuw bestand met dezelfde naam in images/ -->
+      <!-- FOTO stap 1 (presentatie): images/clinic-analyse.jpg -->
+      <img class="ph" src="/images/clinic-analyse.jpg" alt="{{photo2_alt}}" loading="lazy">
+      <!-- FOTO stap 2 (hardlopen met sensor): images/clinic-duurloop.jpg -->
+      <img class="ph" src="/images/clinic-duurloop.jpg" alt="{{photo1_alt}}" loading="lazy">
+      <!-- FOTO stap 3 (kerntemperatuur op de horloges): images/clinic-horloges.jpg, wordt vierkant uitgesneden vanuit het midden -->
+      <img class="ph ph-square" src="/images/clinic-horloges.jpg" alt="{{photo3_alt}}" loading="lazy">
     </div>
   </div>
 </section>

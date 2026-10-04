@@ -50,11 +50,17 @@ aan te passen.
 
 ## Een foto vervangen
 
-Zet een nieuwe afbeelding in de map `images/` met exact dezelfde bestandsnaam:
-- `clinic-duurloop.jpg`  (eerste foto bij "De clinic")
-- `clinic-analyse.jpg`   (tweede foto bij "De clinic")
+Zet een nieuwe afbeelding in de map `images/` met exact dezelfde bestandsnaam. De drie
+foto's bij "De clinic" staan in de volgorde van de drie stappen:
+- `clinic-analyse.jpg`   (stap 1, de presentatie; de naam is historisch)
+- `clinic-duurloop.jpg`  (stap 2, hardlopen met de CORE-sensor)
+- `clinic-horloges.jpg`  (stap 3, kerntemperatuur op de horloges)
 
-Liggend formaat (16:9) werkt het mooist. Je hoeft niets anders aan te passen.
+De site snijdt de foto's zelf bij, altijd vanuit het midden: de eerste twee liggend (3:2),
+de derde vierkant. Zorg dus dat het belangrijkste in het midden van de foto staat. Staand of
+liggend maakt niet uit, zolang de foto rechtop staat (controleer dat in de voorvertoning).
+Maak de foto maximaal ca. 1600 pixels breed (op de Mac: Voorvertoning > Extra > Pas grootte
+aan), anders laadt de pagina traag. Je hoeft niets anders aan te passen.
 
 ## Instructeurs toevoegen of verwijderen
 

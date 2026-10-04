@@ -49,7 +49,8 @@
   "step3_title": "Read your own data",
   "step3_text": "We look at your temperature curve together. You see how your temperature lags behind your heart rate and even keeps rising after the run. That's how you translate the theory to your own races.",
   "photo1_alt": "Participants with CORE sensor during the run",
-  "photo2_alt": "Reviewing the temperature data together",
+  "photo2_alt": "Presentation on thermoregulation during a clinic",
+  "photo3_alt": "Participants comparing their core temperature on their watches after the run",
 
   "learn_eyebrow": "What you learn",
   "learn_title": "Perform more safely and better in the heat",
@@ -88,7 +89,7 @@
   "why_eyebrow": "Why this exists",
   "why_title": "Heatstroke is life-threatening. And preventable.",
   "why_p1": "In 2014 Arthur Fonville, 24, died of heatstroke at the finish of the Dam tot Damloop. His father Joost then started ThermoClinics with one goal: to prevent others from going through this.",
-  "why_p2": "In 2025 Joost founded the Heat-Aware Sports Foundation (Stichting Hittebewust Sporten). Its goal: to make athletes, organisers and healthcare professionals aware of the risks of exercising in the heat. Every year in the Netherlands, athletes end up in hospital with heat illness, while with good preparation this is almost always preventable. ThermoClinics is independent and supported by the foundation.",
+  "why_p2": "In 2025 Joost co-founded the Heat-Aware Sports Foundation (Stichting Hittebewust Sporten). Its goal: to make athletes, organisers and healthcare professionals aware of the risks of exercising in the heat. Every year in the Netherlands, athletes end up in hospital with heat illness, while with good preparation this is almost always preventable. ThermoClinics is independent and supported by the foundation.",
   "why_more_link": "<a href=\"https://www.hittebewustsporten.nl/en/\">Read more about the foundation →</a>",
   "fact1_title": "Core temperature > 40°C",
   "fact1_text": "During heatstroke the central nervous system becomes disrupted: confusion, slurred speech, neurological symptoms. Vital organs sustain damage.",
