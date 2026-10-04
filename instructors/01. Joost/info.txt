@@ -10,5 +10,7 @@ role.en: Founder ThermoClinics
 role.fr: Fondateur ThermoClincs
 
 intro.nl: Sinds Arthur Fonville (24) in 2014 tijdens de Dam tot Damloop overleed aan de gevolgen van een hitteberoerte, zet zijn vader Joost zich in voor sporters. Hij wil hen bewust maken van de thermoregulatie van het lichaam en de risico's op oververhitting. Ook leert hij sporters hoe ze symptomen herkennen en wat ze moeten doen als het toch misgaat.
+
 intro.en: SEver since Arthur Fonville (24) died from heat stroke during the Dam tot Damloop in 2014, his father Joost has been dedicating himself to helping athletes. He aims to raise awareness about the body’s thermoregulation and the risks of overheating. He also teaches athletes how to recognize symptoms and what to do if things go wrong.
+
 intro.fr: Depuis le décès d'Arthur Fonville (24 ans) des suites d'un coup de chaleur lors de la Dam tot Damloop en 2014, son père Joost se consacre aux sportifs. Il souhaite les sensibiliser à la thermorégulation du corps et aux risques de surchauffe. Il leur apprend également à reconnaître les symptômes et à savoir comment agir si cela arrive.

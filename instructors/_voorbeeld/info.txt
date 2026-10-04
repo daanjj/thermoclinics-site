@@ -5,10 +5,12 @@
 
 name: Voornaam Achternaam
 
-role.nl: Inspanningsfysioloog
-role.en: Exercise physiologist
-role.fr: Physiologiste de l’effort
+role.nl: Instructeur ThermoClinics
+role.en: Instructor ThermoClinics
+role.fr: Intervenant ThermoClincs
 
 intro.nl: Korte introductie in twee of drie zinnen: achtergrond, ervaring met hitte en wat deelnemers van deze instructeur leren.
+
 intro.en: Short introduction in two or three sentences: background, experience with heat, and what participants learn from this instructor.
+
 intro.fr: Courte présentation en deux ou trois phrases : parcours, expérience de la chaleur et ce que les participants apprennent avec cet instructeur.

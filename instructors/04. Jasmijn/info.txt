@@ -6,9 +6,11 @@
 name: Jasmijn Lau
 
 role.nl: Instructeur ThermoClinics
-role.en: Exercise physiologist
-role.fr: Physiologiste de l’effort
+role.en: Instructor ThermoClinics
+role.fr: Intervenante ThermoClincs
 
 intro.nl: Als professionele langeafstandsloper liep Jasmijn veel wedstrijden in de hitte en deed ervaring op met hitte-acclimatisatie en koelstrategieën. Tijdens haar studie Biomedische Wetenschappen aan de Radboud Universiteit verdiepte zij zich in thermoregulatie bij sporters en kwam zo in contact met Joost. In de ThermoClinics combineert zij praktijkervaring met wetenschappelijke kennis, zodat sporters veilig kunnen presteren in de warmte.
+
 intro.en: As a professional long-distance runner, Jasmijn has competed in many hot races and gained experience with heat acclimatisation and cooling strategies. While studying Biomedical Sciences at Radboud University, she specialised in thermoregulation in athletes, which brought her into contact with Joost. In the ThermoClinics, she combines practical experience with scientific knowledge so athletes can perform safely in the heat.
+
 intro.fr: Coureuse de fond professionnelle, Jasmijn a disputé de nombreuses courses sous la chaleur et maîtrise l'acclimatation et les stratégies de refroidissement. Pendant ses études en sciences biomédicales à l'Université Radboud, elle s'est spécialisée en thermorégulation, ce qui l'a menée à Joost. Lors des ThermoClinics, elle allie expérience et science pour que les sportifs puissent performer en sécurité par forte chaleur.
