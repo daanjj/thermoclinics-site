@@ -25,7 +25,7 @@
   "chart_value": "39,1°C",
   "chart_svg_aria": "Grafiek: kerntemperatuur stijgt van 37 naar ruim 39 graden en blijft na de finish nog even stijgen. Boven de grens van 40 graden neemt het risico op een hitteberoerte sterk toe.",
   "chart_danger_label": "> 40° = risico neemt snel toe",
-  "chart_caption": "Je temperatuur ijlt na op je inspanning: ook ná de finish stijgt hij vaak nog door. Dat zie je tijdens de clinic op je eigen data.",
+  "chart_caption": "Je temperatuur ijlt na op je inspanning: ook ná de finish stijgt hij vaak nog door. Dat zie je tijdens de clinic in je eigen data.",
 
   "stat1_value": "40°C",
   "stat1_label": "kerntemperatuur waarboven het risico op een hitteberoerte sterk toeneemt",

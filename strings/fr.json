@@ -25,7 +25,7 @@
   "chart_value": "39,1°C",
   "chart_svg_aria": "Graphique : la température interne passe de 37 à plus de 39 degrés et continue de monter un peu après l'arrivée. Au-delà de 40 degrés, le risque de coup de chaleur augmente fortement.",
   "chart_danger_label": "> 40° = le risque augmente fortement",
-  "chart_caption": "Ta température suit ton effort avec un décalage : elle continue souvent de monter même après l'arrivée. Pendant la clinic, tu le vois sur tes propres données.",
+  "chart_caption": "Ta température suit ton effort avec un décalage : elle continue souvent de monter même après l'arrivée. Pendant la clinic, tu le vois dans tes propres données.",
 
   "stat1_value": "40°C",
   "stat1_label": "température interne au-dessus de laquelle le risque de coup de chaleur augmente fortement",

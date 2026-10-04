@@ -25,7 +25,7 @@
   "chart_value": "39.1°C",
   "chart_svg_aria": "Chart: core temperature rises from 37 to just over 39 degrees and keeps climbing for a while after the finish. Above 40 degrees the risk of heatstroke rises sharply.",
   "chart_danger_label": "> 40° = risk rises sharply",
-  "chart_caption": "Your temperature lags behind your effort: it often keeps rising even after the finish. You'll see this on your own data during the clinic.",
+  "chart_caption": "Your temperature lags behind your effort: it often keeps rising even after the finish. You'll see this in your own data during the clinic.",
 
   "stat1_value": "40°C",
   "stat1_label": "core temperature above which the risk of heatstroke rises sharply",
